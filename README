@@ -2,15 +2,19 @@ Flickr Urls can be a little hard to create sometimes, which farms, which server,
 
 ==Example:==
 
-http://flickrimg.appspot.com/i/*photo_id*.jpg  will redirect to the proper url. <br /><br />
+http://flickrimg.appspot.com/i/*photo_id*.jpg  will redirect to the proper url. 
 
-<a href="http://flickrimg.appspot.com/i/3956299042.jpg">http://flickrimg.appspot.com/i/3956299042.jpg</a> goes to <a href="http://farm3.static.flickr.com/2627/3956299042_f252e72ff0.jpg">http://farm3.static.flickr.com/2627/3956299042_f252e72ff0.jpg</a>
-
-
-
-Also you can pass what size you	want too.  http://flickrimg.appspot.com/i/*photo_id*.*size*.jpg	<br /> Where size can be t, s,	    m, b, or l  see flickr for the <a href="http://www.flickr.com/services/api/misc.urls.html">sizes</a>
+http://flickrimg.appspot.com/i/3956299042.jpg goes to http://farm3.static.flickr.com/2627/3956299042_f252e72ff0.jpg
 
 
 
-Example: <a href="http://flickrimg.appspot.com/i/3956299042.l.jpg">http://flickrimg.appspot.com/i/3956299042.l.jpg</a>
+Also you can pass what size you	want too.  http://flickrimg.appspot.com/i/*photo_id*.*size*.jpg	 
 
+Where size can be t, s, m, b, or l  see flickr for the sizes: http://www.flickr.com/services/api/misc.urls.html
+
+
+
+Example: http://flickrimg.appspot.com/i/3956299042.l.jpg
+
+
+The service is running and avaiable on GAE here: http://flickrimg.appspot.com
